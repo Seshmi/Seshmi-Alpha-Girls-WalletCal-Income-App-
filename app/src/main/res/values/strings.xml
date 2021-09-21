@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">budgetprep</string>
+    <string name="list_tot_amount">List Expected Cost: </string>
+    <string name="list_tot_amount_def">00.00</string>
+    <string name="list_name">List 01</string>
+    <string name="date_def">Jan 01,2020</string>
+    <string name="item_name_def">White Sugar</string>
+    <string name="qty_def">1 kg</string>
+    <string name="expected_cost_per_item_def">168.00</string>
+    <string name="item_name_label">Item Name</string>
+    <string name="expected_cost_lab">Expected Cost</string>
+    <string name="qty_lab">Quantity</string>
+    <string name="add_item_title">Add Item</string>
+    <string name="btn_save_lab">Save</string>
+    <string name="item_name_hint">eg: White Sugar</string>
+    <string name="item_qty_hint">eg: 1kg</string>
+    <string name="cost_hint">180.00</string>
+    <string name="edit_item_title">Edit Item</string>
+    <string name="delete_btn_lab">Delete</string>
+    <string name="save_cahnges_btn_lab">Save Changes</string>
+    <string name="lists_title">Shopping Lists</string>
+    <string name="add_list_title">Add New List</string>
+    <string name="list_name_lab">List Name</string>
+    <string name="list_desc_lab">List Description</string>
+    <string name="list_name_def">List</string>
+    <string name="list_desc_def">desc</string>
+
+
+    //expense
+
+    <string name="total_expense">Total Expense</string>
+    <string name="add_expense_title">Add Expense</string>
+    <string name="update_expese_title">Update Expense</string>
+    <string name="update_btn_expense">Update</string>
+    <string name="delete_btn_expense">Delete</string>
+    <string name="btn_save_expense">Save</string>
+
+    <string name="del_btn_content_desc">Delete</string>
+    <string name="ed_btn_content_desc">Edit</string>
+    <string name="edit_list_title">Edit List</string>
+    <string name="reg_title">Register</string>
+    <string name="reg_greeting">Welcome!!</string>
+    <string name="signup_btn_lab">Sign Up</string>
+    <string name="pwd_lab">Password</string>
+    <string name="mail_lab">Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logout_desc">Sign Out</string>
+    <string name="lists_tot_lab">Expected Shopping Cost: </string>
+    <string name="expense_main">expense_main</string>
+</resources>

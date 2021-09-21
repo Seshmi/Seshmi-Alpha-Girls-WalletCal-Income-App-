@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "321379533140",
+    "firebase_url": "https://daytodayapp-59e28.firebaseio.com",
+    "project_id": "daytodayapp-59e28",
+    "storage_bucket": "daytodayapp-59e28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321379533140:android:5ebef5dfae5c53fff0c8c1",
+        "android_client_info": {
+          "package_name": "com.example.daytoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321379533140-eutg5tef6avtng9cipag2lpr675k7s4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daytoday",
+            "certificate_hash": "dfc0e6fb23e10cbef8a5c0d1c5bf1dbaf255253f"
+          }
+        },
+        {
+          "client_id": "321379533140-195gkdk1vf3q33r7tdkp3cj8p15j7e75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpagbb1SGVsX7rRvnmFo-tiu-vmkOBZLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321379533140-195gkdk1vf3q33r7tdkp3cj8p15j7e75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
