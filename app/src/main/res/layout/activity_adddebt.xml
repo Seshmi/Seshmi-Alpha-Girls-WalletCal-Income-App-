@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="horizontal|vertical|none"
+        android:fadingEdgeLength="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_debt"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Debts"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/white">
+
+            </TextView>
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal"
+                     android:baselineAligned="false">
+
+                     <RelativeLayout
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1">
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginStart="10dp"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginTop="10dp"
+                             android:layout_marginEnd="10dp"
+                             android:layout_marginRight="10dp"
+                             android:layout_marginBottom="10dp"
+                             android:padding="5dp"
+                             android:text="Name"
+                             android:textAppearance="@style/TextAppearance.AppCompat.Medium" >
+
+                         </TextView>
+
+                     </RelativeLayout>
+
+
+                     <RelativeLayout
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="2">
+
+                         <EditText
+
+                             android:id="@+id/cus_name"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginStart="10dp"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginTop="10dp"
+                             android:layout_marginEnd="10dp"
+                             android:layout_marginRight="10dp"
+                             android:layout_marginBottom="10dp"
+                             android:autoText="false"
+                             android:autofillHints=""
+                             android:hint="your name" >
+
+                         </EditText>
+
+                     </RelativeLayout>
+
+                 </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:text="Due Date"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+                    </TextView>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+
+                    <EditText
+                        android:id="@+id/debt_duedate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/theme_debt"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:hint="select date"
+                        android:inputType="datetime">
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/adddebt_calendar"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="false"
+                        android:layout_centerHorizontal="false"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_calendar_foreground" />
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:text="Debt Amount"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+                    </TextView>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/debt_amount"
+                        android:inputType="numberDecimal"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:hint="amount" >
+
+
+                    </EditText>
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:text="Description"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+                    </TextView>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/debt_desc"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:hint="write here" >
+
+
+                    </EditText>
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/theme_debt"
+                    android:shadowColor="@color/blueish_shadows"
+                    android:text="Add new"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@android:color/white">
+
+
+                </Button>
+
+            </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
