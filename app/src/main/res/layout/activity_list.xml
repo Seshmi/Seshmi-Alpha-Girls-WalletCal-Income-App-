@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListActivity">
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="15dp"
+        android:clickable="true"
+        android:scaleX="1.25"
+        android:scaleY="1.25"
+        app:backgroundTint="@color/theme_list"
+        app:elevation="30dp"
+        app:srcCompat="@drawable/ic_action_name" />
+
+    <LinearLayout
+        android:id="@+id/holderLinear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:elevation="20dp"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/income_nav"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:layout_marginLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/baseline_trending_up_black_24"
+                    app:tint="@color/nav_tint" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/expense_nav"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/baseline_trending_down_white_24"
+                    app:tint="@color/nav_tint" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp" />
+
+            <RelativeLayout
+                android:id="@+id/debt_nav"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/baseline_attach_money_black_24"
+                    app:tint="#737272" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shoppinglist_nav"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/baseline_grading_black_24"
+                    app:tint="@color/theme_list" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:background="@color/theme_list"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/menu_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/logout_desc"
+                    android:cropToPadding="false"
+                    app:srcCompat="@drawable/ic_baseline_power_settings_new_24"
+                    app:tint="@color/white_back" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/list_name_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="false"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="105dp"
+                    android:background="@drawable/list_clipart" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_name_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/cost_layout"
+                android:layout_alignParentBottom="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/shopping_list_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/list_name"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_white"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cost_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="1dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/list_tot_amount"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/exTotAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/list_tot_amount_def"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+
+                app:cardElevation="10dp">
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerListItems"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:paddingTop="10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>
