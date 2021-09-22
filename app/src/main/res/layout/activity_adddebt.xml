@@ -20,12 +20,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/theme_debt"
+                android:background="@color/colorAccent"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="Debts"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
 
 
 
@@ -51,7 +52,7 @@
                              android:layout_marginRight="10dp"
                              android:layout_marginBottom="10dp"
                              android:padding="5dp"
-                             android:text="Name"
+                             android:text="Debt Type"
                              android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
 
@@ -65,7 +66,7 @@
 
                          <EditText
 
-                             android:id="@+id/cus_name"
+                             android:id="@+id/debt_type"
                              android:layout_width="match_parent"
                              android:layout_height="wrap_content"
                              android:layout_marginStart="10dp"
@@ -75,7 +76,7 @@
                              android:layout_marginRight="10dp"
                              android:layout_marginBottom="10dp"
 
-                             android:hint="your name" /> >
+                             android:hint="Enter Your Debt Type" /> >
 
 
                      </RelativeLayout>
@@ -103,7 +104,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
-                        android:text="Due Date"
+                        android:text="Date"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
 
@@ -116,18 +117,18 @@
 
 
                     <EditText
-                        android:id="@+id/debt_duedate"
+                        android:id="@+id/debt_date"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/theme_debt"
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="select date"
-                        android:inputType="datetime" />
+                        android:hint="Select Date"
+                        android:inputType="datetime"
+                        android:textColor="@color/theme_debt" />
 
 
 
@@ -170,7 +171,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
-                        android:text="Debt Amount"
+                        android:text="Amount"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
 
@@ -182,17 +183,17 @@
 
 
                     <EditText
+                        android:id="@+id/debt_amount"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/debt_amount"
-                        android:inputType="numberDecimal"
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="amount" >
+                        android:hint=" Enter Your Debt Amount"
+                        android:inputType="numberDecimal">
 
 
                     </EditText>
@@ -238,16 +239,16 @@
 
 
                     <EditText
+                        android:id="@+id/debt_dedscription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/debt_desc"
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="write here" >
+                        android:hint="Debt Description">
 
 
                     </EditText>
@@ -279,11 +280,12 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@color/theme_debt"
+                    android:background="@color/colorAccent"
                     android:shadowColor="@color/blueish_shadows"
                     android:text="Add new"
                     android:textAppearance="@style/TextAppearance.AppCompat"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
 
 
 

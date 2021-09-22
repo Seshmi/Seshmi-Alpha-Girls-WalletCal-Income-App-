@@ -20,14 +20,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/backdept"
+                android:background="@drawable/cursor_color"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="Edit"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@android:color/white">
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
 
-            </TextView>
+
 
 
 
@@ -44,8 +45,8 @@
                     android:layout_weight="1">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:layout_height="43dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
@@ -53,10 +54,11 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
-                        android:text="Name"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium" >
+                        android:text="Debt Type"
+                        android:textSize="18sp" />
 
-                    </TextView>
+
+
 
                 </RelativeLayout>
 
@@ -68,7 +70,7 @@
 
                     <EditText
 
-                        android:id="@+id/debt_name"
+                        android:id="@+id/ed_type"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -77,13 +79,12 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:autoText="false"
-                        android:autofillHints=""
-                        android:hint="your name" >
+
+                        android:hint="Enter Your Debt Type" />
 
 
 
-                    </EditText>
+
 
 
 
@@ -114,10 +115,9 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
-                        android:text="Due Date"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+                        android:text="Date"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-                    </TextView>
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -127,20 +127,19 @@
 
 
                     <EditText
+                        android:id="@+id/ed_date"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/_datedue"
-                        android:inputType="datetime"
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="select date" >
+                        android:hint="Select Date"
+                        android:inputType="datetime" />
 
 
-                    </EditText>
                     <ImageView
                         android:id="@+id/updebt_calendar"
                         android:layout_width="40dp"
@@ -180,7 +179,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
-                        android:text="Debt Amount"
+                        android:text="Amount"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium">
 
                     </TextView>
@@ -193,17 +192,17 @@
 
 
                     <EditText
+                        android:id="@+id/ed_amount"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/amount_"
                         android:layout_marginStart="10dp"
-                        android:inputType="numberDecimal"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="amount" >
+                        android:hint="Enter Your Debt Amount"
+                        android:inputType="numberDecimal">
 
 
                     </EditText>
@@ -249,16 +248,16 @@
 
 
                     <EditText
+                        android:id="@+id/ed_description"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/des"
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="write here" >
+                        android:hint="Debt Description">
 
                     </EditText>
 

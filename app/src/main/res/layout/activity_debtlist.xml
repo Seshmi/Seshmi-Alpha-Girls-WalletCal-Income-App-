@@ -93,7 +93,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
-                    android:tint="@color/theme_debt"
+                    android:tint="@color/colorAccent"
                     app:srcCompat="@drawable/baseline_attach_money_black_24" />
             </RelativeLayout>
 
@@ -128,7 +128,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="197dp"
-                android:background="@drawable/backdept"
+                android:background="@drawable/cursor_color"
                 android:orientation="vertical">
 
 
@@ -163,22 +163,23 @@
                             app:srcCompat="@drawable/ic_baseline_arrow_back_24"
                             app:tint="@color/white_back" />
                     </RelativeLayout>
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
 
-                    <ImageView
-                        android:id="@+id/menu_btn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="5dp"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/logout_desc"
-                        android:cropToPadding="false"
-                        app:srcCompat="@drawable/ic_baseline_power_settings_new_24"
-                        app:tint="@color/white_back"/>
+                        <ImageView
+                            android:id="@+id/menu_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/logout_desc"
+                            android:cropToPadding="false"
+                            app:srcCompat="@drawable/ic_baseline_power_settings_new_24"
+                            app:tint="@color/white_back" />
                     </RelativeLayout>
 
 
@@ -215,7 +216,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/shopping_list_name"
+                        android:id="@+id/tv_debts"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto"
@@ -285,16 +286,15 @@
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
                 android:id="@+id/recyclerView"
-                android:layout_height="455dp"
+                android:layout_width="match_parent"
+                android:layout_height="462dp"
                 android:layout_marginStart="1dp"
                 android:layout_marginLeft="1dp"
                 android:layout_marginTop="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_marginRight="1dp"
-                android:layout_marginBottom="1dp">
-            </androidx.recyclerview.widget.RecyclerView>
+                android:layout_marginBottom="1dp"></androidx.recyclerview.widget.RecyclerView>
 
         </LinearLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
