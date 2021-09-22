@@ -2,6 +2,8 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/allerta</item>
+        <item>@font/antic</item>
+        <item>@font/bungee</item>
         <item>@font/comfortaa</item>
         <item>@font/poppins_medium</item>
         <item>@font/poppins_semibold</item>
