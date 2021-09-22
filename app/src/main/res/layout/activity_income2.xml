@@ -155,7 +155,7 @@
             android:backgroundTint="@color/Steel_Blue"
             android:scaleX="1.25"
             android:scaleY="1.25"
-            app:srcCompat="@drawable/ic_action_name"
+            app:srcCompat="@drawable/add1"
             app:elevation="30dp"
             app:fabSize="auto" />
 
@@ -189,7 +189,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerInParent="true"
-                        app:srcCompat="@drawable/baseline_trending_up_black_24"
+                        app:srcCompat="@drawable/add_income"
                         app:tint="@color/Steel_Blue" />
                 </RelativeLayout>
 
