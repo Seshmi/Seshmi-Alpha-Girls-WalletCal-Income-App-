@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/Snow">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,12 +15,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/Snow">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
+                android:background="@color/Steel_Blue"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="update_income"
@@ -177,7 +179,9 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/common_google_play_services_update_button" />
+                    android:background="@color/Steel_Blue"
+                    android:text="@string/common_google_play_services_update_button"
+                    android:textColor="@color/Azure" />
 
             </RelativeLayout>
             <RelativeLayout
@@ -195,7 +199,9 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="Delete" />
+                    android:background="@color/Steel_Blue"
+                    android:text="Delete"
+                    android:textColor="@color/Azure" />
 
             </RelativeLayout>
         </LinearLayout>
