@@ -4,11 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_add_expenses.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_update_delete_expenses.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_update_delete_expenses.xml" value="0.264" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

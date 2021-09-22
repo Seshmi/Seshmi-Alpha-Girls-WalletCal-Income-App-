@@ -6,7 +6,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="#d2d0d9"
         android:fadingEdge="horizontal|vertical|none"
         android:fadingEdgeLength="8dp">
