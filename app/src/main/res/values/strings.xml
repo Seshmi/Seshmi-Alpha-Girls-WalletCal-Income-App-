@@ -48,4 +48,8 @@
     <string name="logout_desc">Sign Out</string>
     <string name="lists_tot_lab">Expected Shopping Cost: </string>
     <string name="expense_main">expense_main</string>
+    <string name="title_activity_expenses_main">expensesMain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
