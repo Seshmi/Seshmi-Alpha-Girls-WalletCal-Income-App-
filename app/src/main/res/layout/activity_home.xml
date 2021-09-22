@@ -59,7 +59,7 @@
                             android:layout_height="70dp"
                             android:layout_gravity="center"
                             android:contentDescription="TODO"
-                            app:srcCompat="@drawable/Image" />
+                            app:srcCompat="@drawable/image" />
                     </FrameLayout>
 
                     <FrameLayout
