@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name="com.example.WalletCal.updateDeleteExpenses"
+            android:exported="true" />
+        <activity
             android:name="com.example.WalletCal.addExpenses"
             android:exported="true" />
         <activity android:name=".HomeActivity" />
