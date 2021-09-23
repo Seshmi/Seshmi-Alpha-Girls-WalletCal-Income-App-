@@ -263,7 +263,7 @@
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
                         android:tint="@color/design_default_color_on_secondary"
-                        app:srcCompat="@drawable/baseline_attach_money_black_24" />
+                        app:srcCompat="@drawable/image456" />
                 </RelativeLayout>
 
                 <RelativeLayout
