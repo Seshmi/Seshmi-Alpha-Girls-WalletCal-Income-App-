@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Snow"
     android:orientation="vertical">
 
     <ScrollView
@@ -17,27 +18,23 @@
             android:layout_margin="10dp"
             android:orientation="vertical">
 
+
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/cursor_color"
+                android:layout_height="64dp"
+                android:background="@color/debt"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="Edit"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-
-
-
-
-
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="24sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:baselineAligned="false">
+                android:baselineAligned="false"
+                android:orientation="horizontal">
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -55,9 +52,8 @@
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
                         android:text="Debt Type"
+                        android:textColor="@color/cardview_dark_background"
                         android:textSize="18sp" />
-
-
 
 
                 </RelativeLayout>
@@ -70,7 +66,7 @@
 
                     <EditText
 
-                        android:id="@+id/ed_type"
+                        android:id="@+id/debt_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -83,22 +79,16 @@
                         android:hint="Enter Your Debt Type" />
 
 
-
-
-
-
-
                 </RelativeLayout>
 
             </LinearLayout>
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:baselineAligned="false">
+                android:baselineAligned="false"
+                android:orientation="horizontal">
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -120,6 +110,7 @@
 
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -127,7 +118,7 @@
 
 
                     <EditText
-                        android:id="@+id/ed_date"
+                        android:id="@+id/_duedate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -136,7 +127,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="Select Date"
+                        android:hint="select date"
                         android:inputType="datetime" />
 
 
@@ -152,7 +143,6 @@
                         app:srcCompat="@drawable/ic_calendar_foreground" />
 
 
-
                 </RelativeLayout>
 
             </LinearLayout>
@@ -161,8 +151,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:baselineAligned="false">
+                android:baselineAligned="false"
+                android:orientation="horizontal">
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -179,12 +169,13 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
-                        android:text="Amount"
+                        android:text="Debt Amount"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium">
 
                     </TextView>
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -192,7 +183,7 @@
 
 
                     <EditText
-                        android:id="@+id/ed_amount"
+                        android:id="@+id/amount_"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -201,12 +192,11 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="Enter Your Debt Amount"
+                        android:hint="amount"
                         android:inputType="numberDecimal">
 
 
                     </EditText>
-
 
 
                 </RelativeLayout>
@@ -217,8 +207,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:baselineAligned="false">
+                android:baselineAligned="false"
+                android:orientation="horizontal">
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -241,6 +231,7 @@
                     </TextView>
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -248,7 +239,7 @@
 
 
                     <EditText
-                        android:id="@+id/ed_description"
+                        android:id="@+id/des"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -257,62 +248,59 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="Debt Description">
+                        android:hint="write here">
 
                     </EditText>
 
                 </RelativeLayout>
 
             </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="20dp"
-    android:orientation="horizontal">
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/imgUpdate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:background="#FFFFFF"
-            android:contentDescription="@string/ed_btn_content_desc"
-            app:srcCompat="@drawable/ic_baseline_edit_24"
-            app:tint="@android:color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
 
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
 
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/imgUpdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/ed_btn_content_desc"
+                        app:srcCompat="@android:drawable/ic_menu_edit"
+                        app:tint="@android:color/black" />
 
 
-        <ImageView
-            android:id="@+id/imgDelete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:background="#FFFFFF"
-            android:contentDescription="@string/del_btn_content_desc"
-            app:srcCompat="@drawable/ic_baseline_delete_24"
-            app:tint="@android:color/holo_red_dark" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
 
 
-    </RelativeLayout>
+                    <ImageView
+                        android:id="@+id/imgDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/del_btn_content_desc"
+                        app:srcCompat="@android:drawable/ic_menu_delete"
+                        app:tint="@android:color/holo_red_dark" />
 
 
-</LinearLayout>
+                </RelativeLayout>
 
 
-
-
-
-
+            </LinearLayout>
 
 
         </LinearLayout>
