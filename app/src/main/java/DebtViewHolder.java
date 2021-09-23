@@ -1,3 +1,6 @@
+package com.example.daytoday;
+
+
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;

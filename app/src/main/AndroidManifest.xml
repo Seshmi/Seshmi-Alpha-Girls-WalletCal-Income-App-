@@ -29,9 +29,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegistrationActivity" />
-        <activity
-            android:name=".DebtListActivity"
-            android:theme="@style/AppThemeDebt" />
         <activity android:name=".IncomeManage2" />
 
         <meta-data
