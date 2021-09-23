@@ -226,7 +226,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
-                        app:srcCompat="@drawable/baseline_attach_money_black_24"
+                        app:srcCompat="@drawable/image456"
                         app:tint="@color/nav_tint" />
                 </RelativeLayout>
 
