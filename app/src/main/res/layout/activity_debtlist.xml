@@ -55,8 +55,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_centerInParent="true"
-                android:tint="@color/nav_tint"
-                app:srcCompat="@drawable/baseline_trending_up_black_24" />
+                app:srcCompat="@drawable/baseline_trending_up_black_24"
+                app:tint="@color/nav_tint" />
         </RelativeLayout>
 
                 <RelativeLayout
@@ -75,11 +75,11 @@
                         app:tint="@color/nav_tint" />
                 </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="30dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_marginLeft="40dp" />
+                <RelativeLayout
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp" />
 
             <RelativeLayout
                 android:id="@+id/debt_nav"
@@ -92,9 +92,9 @@
                     android:id="@+id/imageView10"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_centerInParent="true"
-                    android:tint="@color/colorAccent"
-                    app:srcCompat="@drawable/baseline_attach_money_black_24" />
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/baseline_attach_money_black_24"
+                    app:tint="@color/design_default_color_on_secondary" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -109,8 +109,8 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
-                    android:tint="@color/nav_tint"
-                    app:srcCompat="@drawable/baseline_grading_black_24" />
+                    app:srcCompat="@drawable/baseline_grading_black_24"
+                    app:tint="@color/nav_tint" />
             </RelativeLayout>
 
 
@@ -128,7 +128,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="197dp"
-                android:background="@drawable/cursor_color"
+                android:background="#30ba92"
                 android:orientation="vertical">
 
 
@@ -179,7 +179,7 @@
                             android:contentDescription="@string/logout_desc"
                             android:cropToPadding="false"
                             app:srcCompat="@drawable/ic_baseline_power_settings_new_24"
-                            app:tint="@color/white_back" />
+                            app:tint="@color/Steel_Blue" />
                     </RelativeLayout>
 
 
@@ -196,7 +196,7 @@
                     <View
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/debt2" />
+                        android:background="@drawable/imageN" />
                 </LinearLayout>
 
 
@@ -223,7 +223,7 @@
                         android:text="Debts"
                         android:textAllCaps="false"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/text_white"
+                        android:textColor="@color/cardview_dark_background"
                         android:textSize="26sp" />
                 </LinearLayout>
 
@@ -250,7 +250,7 @@
                             android:fontFamily="@font/roboto"
                             android:text="Total Debts Amount"
                             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                            android:textColor="@android:color/white" />
+                            android:textColor="@color/cardview_dark_background" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -266,7 +266,7 @@
                             android:fontFamily="@font/roboto"
                             android:text="00.00"
                             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                            android:textColor="@android:color/white" />
+                            android:textColor="@color/cardview_dark_background" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -294,7 +294,8 @@
                 android:layout_marginTop="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_marginRight="1dp"
-                android:layout_marginBottom="1dp"></androidx.recyclerview.widget.RecyclerView>
+                android:layout_marginBottom="1dp"
+                android:background="@color/Snow" />
 
         </LinearLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
