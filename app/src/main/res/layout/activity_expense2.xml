@@ -109,24 +109,22 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:fontFamily="sans-serif-black"
-                        android:text="Total Expenses"
+                        android:fontFamily="@font/roboto"
+                        android:text="Total Expense"
                         android:textAllCaps="false"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="@color/text_white"
-                        android:textSize="26sp" />
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/Expense_layout"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginStart="1dp"
-                    android:layout_marginEnd="1dp"
-                    android:layout_marginBottom="1dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="1dp"
                     android:baselineAligned="false"
                     android:orientation="horizontal"
                     android:padding="5dp">
@@ -137,10 +135,10 @@
                         android:layout_weight="2">
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto"
-                            android:text="Total"
+                            android:text="@string/total_expense"
                             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                             android:textColor="@android:color/white" />
                     </RelativeLayout>
@@ -153,7 +151,7 @@
 
                         <TextView
                             android:id="@+id/totExpense"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto"
                             android:text="@string/list_tot_amount_def"
@@ -169,7 +167,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/receive"
                 android:layout_width="match_parent"
-                android:layout_height="461dp"
+                android:layout_height="455dp"
                 android:layout_marginStart="1dp"
                 android:layout_marginLeft="1dp"
                 android:layout_marginTop="1dp"
@@ -191,7 +189,7 @@
             android:backgroundTint="@color/theme_Expense"
             android:scaleX="1.25"
             android:scaleY="1.25"
-            android:src="@drawable/add1"
+            android:src="@drawable/ic_action_name"
             app:elevation="30dp"
             app:fabSize="auto" />
 
@@ -225,7 +223,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerInParent="true"
-                        app:tint="@color/Steel_Blue"
+                        android:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/add_income" />
                 </RelativeLayout>
 
@@ -241,12 +239,12 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
-                        android:tint="@color/design_default_color_on_secondary"
+                        android:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/baseline_trending_up_black_24" />
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="61dp"
+                    android:layout_width="30dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:layout_marginLeft="40dp" />
@@ -262,7 +260,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
-                        android:tint="@color/design_default_color_on_secondary"
+                        android:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/image456" />
                 </RelativeLayout>
 
@@ -277,7 +275,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
-                        android:tint="@color/design_default_color_on_secondary"
+                        android:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/baseline_grading_black_24" />
                 </RelativeLayout>
 
