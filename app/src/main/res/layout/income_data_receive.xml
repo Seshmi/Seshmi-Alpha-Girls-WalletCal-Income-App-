@@ -75,40 +75,40 @@
             android:orientation="horizontal"
         android:background="@color/Snow" >
 
-            <androidx.appcompat.widget.LinearLayoutCompat
-                android:layout_width="226dp"
-                android:layout_height="142dp"
-                android:orientation="vertical">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="226dp"
+            android:layout_height="142dp"
+            android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/type_Re"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    android:paddingBottom="10dp"
-                    android:text="Type"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/type_Re"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-                <TextView
-                    android:id="@+id/note_Re"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:text="Note"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/note_Re"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Note"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-                <TextView
-                    android:id="@+id/amount_Re"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:text="Amount"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/amount_Re"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Amount"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
-            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
 
         </RelativeLayout>
