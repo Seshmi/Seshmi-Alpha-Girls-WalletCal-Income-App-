@@ -1,4 +1,4 @@
-package com.example.daytoday.Model;
+package com.example.WalletCal.Model;
 
 public class DataIncome {
 

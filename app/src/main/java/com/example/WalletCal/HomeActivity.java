@@ -1,25 +1,22 @@
 package com.example.WalletCal;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.icu.text.DecimalFormat;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.daytoday.IncomeManage2;
-import com.example.daytoday.Model.Data;
-import com.example.daytoday.Model.DataIncome;
-import com.example.daytoday.Model.Debt;
-import com.example.daytoday.Model.List;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.WalletCal.Model.Data;
+import com.example.WalletCal.Model.DataIncome;
+import com.example.WalletCal.Model.Debt;
+import com.example.WalletCal.Model.List;
 import com.example.daytoday.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
