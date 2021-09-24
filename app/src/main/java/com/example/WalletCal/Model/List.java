@@ -1,5 +1,5 @@
-package com.example.daytoday.Model;
-
+package com.example.WalletCal.Model;
+//comment
 public class List {
     String type;
     float amount;
