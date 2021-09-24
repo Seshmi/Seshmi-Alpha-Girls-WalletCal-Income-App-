@@ -13,6 +13,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
@@ -20,10 +21,9 @@
             android:backgroundTint="@color/theme_debt"
             android:scaleX="1.25"
             android:scaleY="1.25"
-            android:id="@+id/fabbtn"
-            app:srcCompat="@drawable/ic_action_name"
             app:elevation="30dp"
-            app:fabSize="auto"/>
+            app:fabSize="auto"
+            app:srcCompat="@drawable/add1" />
 
         <LinearLayout
             android:id="@+id/holderLinear"
@@ -56,7 +56,7 @@
                 android:layout_height="40dp"
                 android:layout_centerInParent="true"
                 app:srcCompat="@drawable/add_income"
-                app:tint="@color/nav_tint" />
+                app:tint="@color/debt" />
         </RelativeLayout>
 
                 <RelativeLayout
@@ -70,8 +70,8 @@
                         android:id="@+id/imageView9"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        app:srcCompat="@drawable/imagek"
-                        app:tint="@color/nav_tint" />
+                        app:srcCompat="@drawable/baseline_trending_up_black_24"
+                        app:tint="@color/debt" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -93,7 +93,7 @@
                     android:layout_height="50dp"
                     android:layout_centerVertical="true"
                     app:srcCompat="@drawable/image456"
-                    app:tint="@color/design_default_color_on_secondary" />
+                    app:tint="@color/debt" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -109,7 +109,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     app:srcCompat="@drawable/baseline_grading_black_24"
-                    app:tint="@color/nav_tint" />
+                    app:tint="@color/debt" />
             </RelativeLayout>
 
 

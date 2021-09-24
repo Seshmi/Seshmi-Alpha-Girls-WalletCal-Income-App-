@@ -1,11 +1,8 @@
 
 package com.example.WalletCal;
 
-import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.icu.text.DecimalFormat;
 import android.os.Build;
 import android.os.Bundle;
@@ -28,13 +25,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.WalletCal.DebtViewHolder;
-import com.example.WalletCal.ExpenseManage;
-import com.example.WalletCal.HomeActivity;
-import com.example.WalletCal.LoginActivity;
 import com.example.WalletCal.Model.Debt;
-import com.example.WalletCal.Model.Debt;
-import com.example.WalletCal.Model.Item;
 import com.example.daytoday.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -48,7 +39,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.Calendar;
-import java.util.Date;
 
 public class DebtListActivity extends AppCompatActivity {
 
@@ -321,7 +311,7 @@ public class DebtListActivity extends AppCompatActivity {
         dialog_.setView(MyView);
 
         final EditText upName = MyView.findViewById(R.id.debt_name);
-        final EditText updDate = MyView.findViewById(R.id._datedue);
+        final EditText updDate = MyView.findViewById(R.id._duedate);
         final EditText upAmount = MyView.findViewById(R.id.amount_);
         final EditText upDesc = MyView.findViewById(R.id.des);
         ImageView upcal = MyView.findViewById(R.id.updebt_calendar);
