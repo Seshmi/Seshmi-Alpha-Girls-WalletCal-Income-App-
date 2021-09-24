@@ -12,9 +12,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.daytoday.HomeActivity;
-import com.example.daytoday.LoginActivity;
-import com.example.daytoday.R;
+import com.example.WalletCal.HomeActivity;
+import com.example.WalletCal.LoginActivity;
+import com.example.WalletCal.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
