@@ -1,4 +1,4 @@
-package com.example.daytoday;
+package com.example.WalletCal;
 
 import androidx.annotation.NonNull;
 
