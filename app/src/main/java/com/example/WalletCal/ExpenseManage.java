@@ -22,10 +22,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.daytoday.IncomeManage2;
-import com.example.daytoday.Model.Data;
+
+import com.example.WalletCal.Model.Data;
+import com.example.daytoday.DebtListActivity;
 import com.example.daytoday.R;
-import com.example.daytoday.dataRetrive;
+import com.example.WalletCal.dataRetrive;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -98,7 +99,7 @@ public class ExpenseManage extends AppCompatActivity {
 
                     Data data = dataSnapshot.getValue(Data.class);
 
-                    totExpense +=data.getAmount();
+                    totExpense += data.getAmount();
                 }
                 DecimalFormat decimalFormat = new DecimalFormat("#.00");
                 String fTotExpense = decimalFormat.format(totExpense);
@@ -204,7 +205,7 @@ public class ExpenseManage extends AppCompatActivity {
         debt_nav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ExpenseManage.this,DebtListActivity.class) );
+                startActivity(new Intent(ExpenseManage.this, DebtListActivity.class) );
             }
         });
 

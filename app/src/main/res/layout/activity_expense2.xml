@@ -189,9 +189,11 @@
             android:backgroundTint="@color/theme_Expense"
             android:scaleX="1.25"
             android:scaleY="1.25"
-            android:src="@drawable/ic_action_name"
+            android:src="@drawable/add1"
             app:elevation="30dp"
-            app:fabSize="auto" />
+            app:fabSize="auto"
+            app:rippleColor="@color/theme_debt"
+            app:src="@drawable/ic_action_name" />
 
         <LinearLayout
             android:id="@+id/holderLinear"
@@ -223,7 +225,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerInParent="true"
-                        android:tint="@color/colorPrimaryDark"
+                        app:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/add_income" />
                 </RelativeLayout>
 
@@ -239,13 +241,13 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
-                        android:tint="@color/colorPrimaryDark"
+                        app:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/baseline_trending_up_black_24" />
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="52dp"
+                    android:layout_height="54dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="40dp" />
 
@@ -260,7 +262,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
-                        android:tint="@color/colorPrimaryDark"
+                        app:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/image456" />
                 </RelativeLayout>
 
@@ -275,7 +277,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
-                        android:tint="@color/colorPrimaryDark"
+                        app:tint="@color/colorPrimaryDark"
                         app:srcCompat="@drawable/baseline_grading_black_24" />
                 </RelativeLayout>
 
