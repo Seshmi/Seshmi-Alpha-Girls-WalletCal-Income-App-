@@ -26,7 +26,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.WalletCal.Model.Debt;
-import com.example.daytoday.R;
+import com.example.daytoday.ListOfListsActivity;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -193,7 +193,7 @@ public class DebtListActivity extends AppCompatActivity {
         todolist_nav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DebtListActivity.this,ListOfListsActivity.class) );
+                startActivity(new Intent(DebtListActivity.this, ListOfListsActivity.class) );
             }
         });
         income_nav.setOnClickListener(new View.OnClickListener() {

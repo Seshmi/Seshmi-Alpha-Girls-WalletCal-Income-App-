@@ -1,14 +1,11 @@
 package com.example.WalletCal;
 
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.example.daytoday.R;
 
 public class dataRetrive extends RecyclerView.ViewHolder {
 
