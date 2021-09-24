@@ -1,4 +1,4 @@
-package com.example.income_app;
+package com.example.WalletCal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this,Dashboard.class);
+                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
 
