@@ -7,6 +7,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.daytoday.R;
+
 public class dataRetriveIncome extends RecyclerView.ViewHolder {
 
     TextView amountR,typeR,noteR;
