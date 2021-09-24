@@ -17,7 +17,6 @@ import com.example.WalletCal.Model.Data;
 import com.example.WalletCal.Model.DataIncome;
 import com.example.WalletCal.Model.Debt;
 import com.example.WalletCal.Model.List;
-import com.example.daytoday.ListOfListsActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
