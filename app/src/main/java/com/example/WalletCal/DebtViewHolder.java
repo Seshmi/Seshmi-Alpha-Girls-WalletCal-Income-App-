@@ -1,5 +1,4 @@
-package com.example.daytoday;
-
+package com.example.WalletCal;
 
 import android.view.View;
 import android.widget.EditText;

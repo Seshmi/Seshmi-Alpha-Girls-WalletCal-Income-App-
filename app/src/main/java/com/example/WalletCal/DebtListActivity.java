@@ -1,4 +1,5 @@
-package com.example.daytoday;
+
+package com.example.WalletCal;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
@@ -27,6 +28,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.WalletCal.DebtViewHolder;
+import com.example.WalletCal.ExpenseManage;
+import com.example.WalletCal.HomeActivity;
+import com.example.WalletCal.LoginActivity;
+import com.example.WalletCal.Model.Debt;
 import com.example.daytoday.Model.Debt;
 import com.example.daytoday.Model.Item;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -74,7 +80,7 @@ public class DebtListActivity extends AppCompatActivity {
         FirebaseUser dUser = mAuth.getCurrentUser();
 
         if (dUser == null ){
-            startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
         }
         String did = dUser.getUid();
 
@@ -184,13 +190,13 @@ public class DebtListActivity extends AppCompatActivity {
         back_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+                startActivity(new Intent(getApplicationContext(), HomeActivity.class));
             }
         });
         expense_nav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DebtListActivity.this,ExpenseManage.class) );
+                startActivity(new Intent(DebtListActivity.this, ExpenseManage.class) );
             }
         });
         todolist_nav.setOnClickListener(new View.OnClickListener() {
