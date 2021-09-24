@@ -1,4 +1,4 @@
-package com.example.WalletCal;
+package com.example.daytoday;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
