@@ -6,7 +6,7 @@ public class Debt {
     private String name;
     private String duedate;
     private Float amount;
-    private String discription;
+    private String discription;//created
 
 public Debt(){
 
