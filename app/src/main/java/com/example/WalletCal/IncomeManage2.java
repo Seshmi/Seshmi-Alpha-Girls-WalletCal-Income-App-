@@ -21,7 +21,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.WalletCal.Model.DataIncome;
-import com.example.daytoday.R;
+import com.example.daytoday.ListOfListsActivity;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -185,7 +185,7 @@ public class IncomeManage2 extends AppCompatActivity {
         todolist_nav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(IncomeManage2.this,ListOfListsActivity.class) );
+                startActivity(new Intent(IncomeManage2.this, ListOfListsActivity.class) );
             }
         });
     }

@@ -3,6 +3,7 @@ package com.example.WalletCal;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.daytoday.ListOfListsActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -30,6 +32,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +41,7 @@ public class RegistrationActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         if (mAuth.getCurrentUser() !=null ){
-            startActivity(new Intent(getApplicationContext(),ListOfListsActivity.class));
+            startActivity(new Intent(getApplicationContext(), ListOfListsActivity.class));
         }
 
         mEmail = findViewById(R.id.reg_uname);
