@@ -1,5 +1,6 @@
 package com.example.daytoday;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.icu.text.DecimalFormat;
 import android.os.Build;
@@ -129,7 +130,7 @@ public class ListOfListsActivity extends AppCompatActivity {
         adapter = new FirebaseRecyclerAdapter<List, ListOfListsActivity.MyViewHolder>(options) {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
-            protected void onBindViewHolder(@NonNull ListOfListsActivity.MyViewHolder holder, final int position, @NonNull final List model) {
+            protected void onBindViewHolder(@NonNull ListOfListsActivity.MyViewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull final List model) {
 
                 holder.setType(model.getType());
                 holder.setDate(model.getDate());
