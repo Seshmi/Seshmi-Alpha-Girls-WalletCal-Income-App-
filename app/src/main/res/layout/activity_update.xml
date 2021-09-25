@@ -82,7 +82,7 @@
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
                         android:text="Debt Type"
-                        android:textColor="@color/cardview_dark_background"
+                        android:textColor="@color/design_default_color_on_secondary"
                         android:textSize="18sp" />
 
                 </RelativeLayout>
@@ -134,7 +134,8 @@
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
                         android:text="Due Date"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/design_default_color_on_secondary" />
 
 
                 </RelativeLayout>
@@ -198,7 +199,8 @@
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
                         android:text="Debt Amount"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/design_default_color_on_secondary">
 
                     </TextView>
 
@@ -254,7 +256,8 @@
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
                         android:text="Description"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/design_default_color_on_secondary">
 
                     </TextView>
 
@@ -302,7 +305,7 @@
                         android:layout_centerInParent="true"
                         android:background="#FFFFFF"
                         android:contentDescription="@string/ed_btn_content_desc"
-                        app:srcCompat="@android:drawable/ic_menu_edit"
+                        app:srcCompat="@drawable/ic_baseline_edit_24"
                         app:tint="@android:color/black" />
 
 
@@ -322,7 +325,7 @@
                         android:background="#FFFFFF"
                         android:contentDescription="@string/del_btn_content_desc"
                         app:srcCompat="@drawable/ic_baseline_delete_24"
-                        app:tint="@android:color/holo_red_dark" />
+                        app:tint="@android:color/background_dark" />
 
 
                 </RelativeLayout>

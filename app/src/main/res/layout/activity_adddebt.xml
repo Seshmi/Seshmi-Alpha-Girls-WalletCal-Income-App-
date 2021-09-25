@@ -58,7 +58,7 @@
                 android:text="Debts"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="?android:attr/colorForeground"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
 
             <LinearLayout
@@ -84,7 +84,7 @@
                         android:padding="5dp"
                         android:text="Name"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/cardview_dark_background" />
+                        android:textColor="@color/design_default_color_on_secondary" />
 
 
                 </RelativeLayout>
@@ -137,7 +137,7 @@
                         android:padding="5dp"
                         android:text="Due Date"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/cardview_dark_background" />
+                        android:textColor="@color/design_default_color_on_secondary" />
 
 
                 </RelativeLayout>
@@ -203,7 +203,7 @@
                         android:padding="5dp"
                         android:text="Debt Amount"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/cardview_dark_background" />
+                        android:textColor="@color/design_default_color_on_secondary" />
 
 
                 </RelativeLayout>
@@ -258,7 +258,8 @@
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
                         android:text="Description"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/design_default_color_on_secondary" />
 
 
                 </RelativeLayout>
@@ -314,7 +315,8 @@
                         android:shadowColor="@color/blueish_shadows"
                         android:text="Add new"
                         android:textAppearance="@style/TextAppearance.AppCompat"
-                        android:textColor="?android:attr/colorForeground">
+                        android:textColor="?android:attr/colorForeground"
+                        android:textSize="16sp">
 
 
                     </Button>

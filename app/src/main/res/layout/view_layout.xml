@@ -43,7 +43,7 @@
                 android:padding="5dp"
                 android:text="Debt amount"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/cardview_dark_background">
+                android:textColor="@color/design_default_color_on_secondary">
 
 
             </TextView>
@@ -61,7 +61,7 @@
                 android:padding="5dp"
                 android:text="Due ate"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/cardview_dark_background">
+                android:textColor="@color/design_default_color_on_secondary">
 
             </TextView>
 
@@ -74,7 +74,7 @@
                 android:padding="5dp"
                 android:text="Description"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/cardview_dark_background">
+                android:textColor="@color/design_default_color_on_secondary">
 
             </TextView>
         </RelativeLayout>
