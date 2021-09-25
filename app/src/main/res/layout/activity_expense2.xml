@@ -4,10 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context="com.example.daytoday.LoginActivity"
     android:layout_alignParentLeft="false"
-    android:layout_alignParentTop="false"
     android:layout_alignParentRight="false"
-    android:layout_alignParentBottom="false">
+    android:layout_alignParentTop="false"
+    android:layout_alignParentBottom="false"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:padding="20dp">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
