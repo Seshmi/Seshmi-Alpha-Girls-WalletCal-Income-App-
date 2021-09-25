@@ -128,7 +128,7 @@ public class DebtListActivity extends AppCompatActivity {
         adapter = new FirebaseRecyclerAdapter<Debt, DebtViewHolder>(options) {
 
             @Override
-            protected void onBindViewHolder(@NonNull final DebtViewHolder holder, int position, @NonNull final Debt debt) {
+            protected void onBindViewHolder(@NonNull final DebtViewHolder holder, @SuppressLint("RecyclerView") int position, @NonNull final Debt debt) {
 
                 holder.name.setText("Name : "+debt.getName());
                 holder.datedue.setText("Due Date : "+debt.getDuedate());

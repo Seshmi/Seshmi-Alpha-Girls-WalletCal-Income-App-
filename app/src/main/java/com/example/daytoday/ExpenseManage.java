@@ -1,5 +1,6 @@
 package com.example.daytoday;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.icu.text.DecimalFormat;
 import android.os.Build;
@@ -146,7 +147,7 @@ public class ExpenseManage extends AppCompatActivity {
 
         adapter = new FirebaseRecyclerAdapter<Data, dataRetrive>(options) {
             @Override
-            protected void onBindViewHolder(@NonNull dataRetrive dataRetrive, final int i, @NonNull Data data) {
+            protected void onBindViewHolder(@NonNull dataRetrive dataRetrive, @SuppressLint("RecyclerView") final int i, @NonNull Data data) {
                 dataRetrive.amountR.setText("Rs." + " " + data.getAmount());
                 dataRetrive.typeR.setText("Type - " + data.getType());
                 dataRetrive.noteR.setText("Note - " + data.getNote());
