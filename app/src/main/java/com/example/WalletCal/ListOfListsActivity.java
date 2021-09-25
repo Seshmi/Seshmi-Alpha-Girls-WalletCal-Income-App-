@@ -1,4 +1,4 @@
-package com.example.WalletCal;
+package com.example.daytoday;
 
 import android.content.Intent;
 import android.icu.text.DecimalFormat;
@@ -41,7 +41,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ListOfListsActivity extends AppCompatActivity {
-//comment
+
     private DatabaseReference lDatabase;
     private FirebaseAuth mAuth;
 
