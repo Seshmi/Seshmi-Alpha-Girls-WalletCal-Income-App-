@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:layout_margin="15dp"
-            android:backgroundTint="@color/theme_debt"
+            android:backgroundTint="#30ba92"
             android:scaleX="1.25"
             android:scaleY="1.25"
             app:elevation="30dp"
@@ -98,7 +98,7 @@
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
                         app:srcCompat="@drawable/image456"
-                        app:tint="@color/design_default_color_on_secondary" />
+                        app:tint="#30ba92" />
                 </RelativeLayout>
 
                 <RelativeLayout

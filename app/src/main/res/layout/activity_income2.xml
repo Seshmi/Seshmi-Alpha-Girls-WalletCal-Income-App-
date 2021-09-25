@@ -205,7 +205,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
-                        app:srcCompat="@drawable/baseline_trending_down_white_24"
+                        app:srcCompat="@drawable/sh_list"
                         app:tint="@color/nav_tint" />
                 </RelativeLayout>
 

@@ -18,7 +18,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="225dp"
-                android:background="@color/theme_list"
+                android:background="#ff7f50"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -196,7 +196,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerInParent="true"
-                        app:srcCompat="@drawable/baseline_trending_up_black_24"
+                        app:srcCompat="@drawable/add_income"
                         app:tint="@color/nav_tint" />
                 </RelativeLayout>
 
@@ -211,8 +211,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_centerInParent="true"
-                        app:srcCompat="@drawable/baseline_trending_down_white_24"
+                        app:srcCompat="@drawable/sh_list"
                         app:tint="@color/nav_tint" />
                 </RelativeLayout>
 
@@ -233,7 +232,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
-                        app:srcCompat="@drawable/baseline_attach_money_black_24"
+                        app:srcCompat="@drawable/image456"
                         app:tint="#737272" />
                 </RelativeLayout>
 
@@ -249,7 +248,7 @@
                         android:layout_height="50dp"
                         android:layout_centerInParent="true"
                         app:srcCompat="@drawable/baseline_grading_black_24"
-                        app:tint="@color/theme_list" />
+                        app:tint="#ff7f50" />
                 </RelativeLayout>
 
 
@@ -267,9 +266,9 @@
             android:clickable="true"
             android:scaleX="1.25"
             android:scaleY="1.25"
-            app:backgroundTint="@color/theme_list"
+            app:backgroundTint="#ff7f50"
             app:elevation="30dp"
-            app:srcCompat="@drawable/ic_action_name" />
+            app:srcCompat="@drawable/add1" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

@@ -90,7 +90,7 @@
                 android:background="#FFFFFF"
                 android:contentDescription="@string/ed_btn_content_desc"
                 app:srcCompat="@drawable/ic_baseline_edit_24"
-                app:tint="@color/theme_list" />
+                app:tint="#ff7f50" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -106,7 +106,7 @@
                 android:background="#FFFFFF"
                 android:contentDescription="@string/del_btn_content_desc"
                 app:srcCompat="@drawable/ic_baseline_delete_24"
-                app:tint="@color/theme_list" />
+                app:tint="#ff7f50" />
         </RelativeLayout>
 
     </LinearLayout>
