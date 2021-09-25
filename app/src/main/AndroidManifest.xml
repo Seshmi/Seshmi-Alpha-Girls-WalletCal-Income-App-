@@ -32,6 +32,7 @@
         <activity android:name=".DebtListActivity"
             android:theme="@style/AppThemeDebt"/>
         <activity android:name=".IncomeManage2"/>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

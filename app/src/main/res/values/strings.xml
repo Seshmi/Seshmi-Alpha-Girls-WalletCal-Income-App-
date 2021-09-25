@@ -48,4 +48,5 @@
     <string name="logout_desc">Sign Out</string>
     <string name="lists_tot_lab">Expected Shopping Cost: </string>
     <string name="expense_main">expense_main</string>
+    <string name="TITLE">HELLO THERE, WELCOME BACK</string>
 </resources>
