@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">budgetprep</string>
+    <string name="app_name">WalletCal</string>
     <string name="list_tot_amount">List Expected Cost: </string>
     <string name="list_tot_amount_def">00.00</string>
     <string name="list_name">List 01</string>
