@@ -55,7 +55,7 @@
                 android:background="#30ba92"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Debts"
+                android:text="Debt"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="?android:attr/colorForeground"
                 android:textSize="20sp" />
@@ -82,7 +82,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
-                        android:text="Name"
+                        android:text="Debt Type"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="@color/design_default_color_on_secondary" />
 
@@ -107,7 +107,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
 
-                        android:hint="your name" />
+                        android:hint="Enter debt type" />
 
 
                 </RelativeLayout>
