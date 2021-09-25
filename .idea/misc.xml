@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_add_expenses.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_adddebt.xml" value="0.1" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_debtlist.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_expense2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_expense_update.xml" value="0.264" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_expenses_main.xml" value="0.25" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_expenses_total.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_income2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_income_update.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_list.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_list_of_lists.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_update.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_update_delete_expenses.xml" value="0.264" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/add_expense.xml" value="0.264" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/add_income.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/expense_data_receive.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/income_data_receive.xml" value="0.25416666666666665" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.1" />
-      </ProjectState>
-    </option>
   </component>
 </project>

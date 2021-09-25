@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.WalletCal">
+    package="com.example.daytoday">
 
     <uses-permission android:name="INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/pic"
+        android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/pic"
+        android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity" />
-        <activity
-            android:name=".ExpenseManage"
-            android:theme="@style/AppThemeExpense" />
+        <activity android:name=".HomeActivity">
+
+        </activity>
+        <activity android:name=".ExpenseManage"
+            android:theme="@style/AppThemeExpense"/>
         <activity
             android:name=".ListOfListsActivity"
             android:theme="@style/AppThemeList" />
-        <activity
-            android:name=".ListActivity"
-            android:theme="@style/AppThemeList" />
+        <activity android:name=".ListActivity"
+            android:theme="@style/AppThemeList"/>
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,8 +29,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegistrationActivity" />
-        <activity android:name=".IncomeManage2" />
-
+        <activity android:name=".DebtListActivity"
+            android:theme="@style/AppThemeDebt"/>
+        <activity android:name=".IncomeManage2"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
