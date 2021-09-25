@@ -136,7 +136,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:background="@color/theme_list"
+                        android:background="@color/theme_debt"
                         android:text="@string/save_cahnges_btn_lab"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="@android:color/white" />

@@ -1,0 +1,40 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_expense2.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_expense_update.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_home.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_login.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/add_expense.xml\" value=\"0.25416666666666665\" />\r\n        <entry key=\"..\\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/expense_data_receive.xml\" value=\"0.25416666666666665\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -9,6 +9,10 @@
+         <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+         <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/add_expense.xml" value="0.25416666666666665" />
+         <entry key="..\:/Users/HP/Desktop/projectMAD/app/src/main/res/layout/expense_data_receive.xml" value="0.25416666666666665" />
++        <entry key="..\:/Users/User/AndroidStudioProjects/Seshmi-Alpha-Girls-WalletCal-Income-App-/app/src/main/res/layout/item.xml" value="0.2" />
++        <entry key="..\:/Users/User/AndroidStudioProjects/Seshmi-Alpha-Girls-WalletCal-Income-App-/app/src/main/res/layout/list.xml" value="0.19746376811594202" />
++        <entry key="..\:/Users/User/AndroidStudioProjects/Seshmi-Alpha-Girls-WalletCal-Income-App-/app/src/main/res/layout/update_item.xml" value="0.19746376811594202" />
++        <entry key="..\:/Users/User/AndroidStudioProjects/Seshmi-Alpha-Girls-WalletCal-Income-App-/app/src/main/res/layout/update_list.xml" value="0.16893115942028986" />
+       </map>
+     </option>
+   </component>
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <bytecodeTargetLevel target=\"11\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	
++++ b/.idea/compiler.xml	
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
++    <bytecodeTargetLevel target="1.8" />
+   </component>
+ </project>
+\ No newline at end of file
