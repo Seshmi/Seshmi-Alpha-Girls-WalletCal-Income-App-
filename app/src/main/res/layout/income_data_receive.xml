@@ -1,43 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="5dp">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="197dp"
-        android:background="@color/Steel_Blue"
-        android:orientation="vertical">
-
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="false"
-        android:orientation="vertical">
-
-        <View
-            android:layout_width="192dp"
-            android:layout_height="123dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="115dp"
-            android:layout_marginLeft="115dp"
-            android:layout_marginTop="33dp"
-            android:layout_marginEnd="104dp"
-            android:layout_marginRight="104dp"
-            android:layout_marginBottom="41dp"
-            android:background="@drawable/image" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -55,28 +25,26 @@
             android:textColor="@color/design_default_color_on_secondary"
             android:textStyle="bold|italic" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/holderLinear"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/Steel_Blue"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="Income Summary"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/white" />
+        android:layout_height="174dp"
+        android:orientation="vertical"
+        android:padding="5dp">
 
+        <RelativeLayout
+            android:layout_width="404dp"
+            android:layout_height="41dp"
+            android:orientation="horizontal">
 
-    <RelativeLayout
-        android:layout_width="404dp"
-        android:layout_height="150dp"
-        android:orientation="horizontal"
-        android:background="@color/Snow" >
+        </RelativeLayout>
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="226dp"
-            android:layout_height="142dp"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:background="@color/Steel_Blue"
             android:orientation="vertical">
 
             <TextView
@@ -84,8 +52,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:paddingBottom="10dp"
-                android:text="Type"
+                android:paddingTop="5dp"
+                android:text="type"
+                android:textColor="@color/Azure"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <TextView
@@ -94,8 +63,9 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
-                android:text="Note"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:text="note"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/Azure" />
 
             <TextView
                 android:id="@+id/amount_Re"
@@ -103,15 +73,13 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
-                android:text="Amount"
+                android:text="amount"
+                android:textColor="@color/Azure"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
 
-    </RelativeLayout>
+    </LinearLayout>
 
-
-
-</LinearLayout>
+</androidx.cardview.widget.CardView>
