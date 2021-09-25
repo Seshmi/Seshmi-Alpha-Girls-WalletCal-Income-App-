@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WalletCal</string>
+    <string name="app_name">budgetprep</string>
     <string name="list_tot_amount">List Expected Cost: </string>
     <string name="list_tot_amount_def">00.00</string>
     <string name="list_name">List 01</string>
@@ -48,8 +48,4 @@
     <string name="logout_desc">Sign Out</string>
     <string name="lists_tot_lab">Expected Shopping Cost: </string>
     <string name="expense_main">expense_main</string>
-    <string name="title_activity_expenses_main">expensesMain</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
 </resources>

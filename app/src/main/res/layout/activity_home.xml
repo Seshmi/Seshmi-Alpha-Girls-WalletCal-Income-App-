@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.WalletCal.HomeActivity">
+    tools:context=".HomeActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="WalletCal"
-                android:textColor="@color/design_default_color_on_secondary"
+                android:textColor="@color/white_back"
                 android:textSize="36sp" />
         </LinearLayout>
 
@@ -73,7 +73,7 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/img_1" />
+                            app:srcCompat="@drawable/expense" />
                     </FrameLayout>
 
                 </TableRow>
@@ -91,7 +91,7 @@
                         android:fontFamily="@font/allerta"
                         android:gravity="center"
                         android:text="Income"
-                        android:textColor="@color/design_default_color_on_secondary" />
+                        android:textColor="@color/white_back" />
 
                     <TextView
                         android:layout_width="100dp"
@@ -100,7 +100,7 @@
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/allerta"
                         android:text="Expense"
-                        android:textColor="@color/design_default_color_on_secondary" />
+                        android:textColor="@color/white_back" />
                 </TableRow>
 
                 <TableRow
@@ -133,7 +133,7 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/image123" />
+                            app:srcCompat="@drawable/debt" />
                     </FrameLayout>
 
                 </TableRow>
@@ -149,7 +149,7 @@
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/allerta"
                         android:text="Shopping List"
-                        android:textColor="@color/design_default_color_on_secondary" />
+                        android:textColor="@color/white_back" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -158,7 +158,7 @@
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/allerta"
                         android:text="Debts"
-                        android:textColor="@color/design_default_color_on_secondary" />
+                        android:textColor="@color/white_back" />
                 </TableRow>
 
             </TableLayout>

@@ -14,14 +14,7 @@
 
     <color name="Python">#66BB6A</color>
     <color name="CPP">#EF5350</color>
-    <color name="Original">#a4c639</color>
-    <color name="Income">#9874a7</color>
-    <color name="Lavender">#e6e6fa</color>
-    <color name="Azure">#f0ffff</color>
-    <color name="Pale_Turquoise">#afeeee</color>
-    <color name="Powder_Blue">#b0e0e6</color>
     <color name="Steel_Blue">#4682b4</color>
-    <color name="Sky_Blue">#87ceeb</color>
     <color name="Snow">#eee9e9</color>
-    <color name="debt">#30BA92</color>
+    <color name="Azure">#f0ffff</color>
 </resources>

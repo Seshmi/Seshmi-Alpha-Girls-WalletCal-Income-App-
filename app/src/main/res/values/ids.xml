@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="imageView" type="id">imageView</item>
-    <item name="textView" type="id">textView</item>
-    <item name="textView2" type="id">textView2</item>
-</resources>

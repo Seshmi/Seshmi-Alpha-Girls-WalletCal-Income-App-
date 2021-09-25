@@ -1,2 +1,2 @@
-
-rootProject.name = "WalletCal"
+include ':app'
+rootProject.name = "DayToDay"
