@@ -13,9 +13,9 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="65dp"
+            android:layout_width="349dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="40dp"
             android:orientation="horizontal">
 
             <TextView
@@ -29,34 +29,18 @@
                 android:textSize="30sp" />
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="right|bottom"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="7.3dp"
-                    android:background="@drawable/small_cicle"
-                    android:fontFamily="@font/poppins"/>
-
-            </LinearLayout>
-
-            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <FrameLayout
-                    android:layout_width="50dp"
-                    android:layout_height="100dp"
-                    android:layout_alignParentRight="true"
-                    android:background="@drawable/half_circle" />
-
             </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="143dp"
+                android:layout_height="126dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:background="@drawable/photo" />
 
 
         </LinearLayout>
