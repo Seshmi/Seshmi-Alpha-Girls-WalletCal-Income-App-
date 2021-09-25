@@ -4,6 +4,59 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:background="#ff7f50"
+        android:orientation="vertical">
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="192dp"
+            android:layout_height="123dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginRight="104dp"
+            android:layout_marginBottom="41dp"
+            android:background="@drawable/shop" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_addExpenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="List"
+
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -17,7 +70,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/theme_list"
+                android:background="#ff7f50"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/edit_item_title"
@@ -182,7 +235,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:background="@color/theme_list"
+                        android:background="#ff7f50"
                         android:text="@string/delete_btn_lab"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="@android:color/white" />
@@ -204,7 +257,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:background="@color/theme_list"
+                        android:background="#ff7f50"
                         android:text="@string/save_cahnges_btn_lab"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:textColor="@android:color/white" />

@@ -19,7 +19,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/theme_list"
+                android:background="#ff7f50"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/add_item_title"
@@ -174,7 +174,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:background="@color/theme_list"
+                android:background="#ff7f50"
                 android:shadowColor="@color/blueish_shadows"
                 android:text="@string/btn_save_lab"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"

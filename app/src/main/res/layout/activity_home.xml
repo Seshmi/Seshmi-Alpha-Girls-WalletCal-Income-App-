@@ -73,7 +73,7 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/expense" />
+                            app:srcCompat="@drawable/img_1" />
                     </FrameLayout>
 
                 </TableRow>
@@ -118,7 +118,7 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/shopping_list" />
+                            app:srcCompat="@drawable/shop" />
                     </FrameLayout>
 
                     <FrameLayout
@@ -133,7 +133,7 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/debt" />
+                            app:srcCompat="@drawable/image123" />
                     </FrameLayout>
 
                 </TableRow>
