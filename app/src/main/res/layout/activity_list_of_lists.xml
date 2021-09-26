@@ -82,7 +82,7 @@
                     <View
                         android:layout_width="95dp"
                         android:layout_height="105dp"
-                        android:background="@drawable/ic_shopping" />
+                        android:background="@drawable/shop" />
                 </LinearLayout>
 
                 <LinearLayout

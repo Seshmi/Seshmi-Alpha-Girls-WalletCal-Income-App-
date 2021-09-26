@@ -1,57 +1,63 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.daytoday.LoginActivity"
-    android:orientation="vertical"
-    android:background="#FFF"
-    android:padding="20dp">
-
-    <ImageView
-        android:id="@+id/logo_image"
-        android:layout_width="150dp"
-        android:layout_height="89dp"
-        android:src="@drawable/pic"
-        android:transitionName="logo_image" />
-
-    <TextView
-        android:id="@+id/logo_name"
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:fontFamily="@font/bungee"
-        android:text="HELLO !!, WELCOME BACK"
-        android:textColor="#000"
-        android:textSize="40sp"
-        android:transitionName="logo_text" />
-
-    <TextView
-        android:id="@+id/slogan_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/antic"
-        android:text="Sign In to Continue"
-        android:textSize="18sp" />
+    android:background="@color/white_back"
+    tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="276dp"
+        android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="349dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="144dp"
+                android:layout_height="57dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="32dp"
+                android:fontFamily="@font/bungee"
+                android:gravity="center_horizontal"
+                android:text="Login"
+                android:textColor="#333232"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="122dp"
+                android:layout_height="107dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:background="@drawable/photo" />
+
+
+        </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="206dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:orientation="horizontal"
             android:paddingLeft="14.5dp">
-
 
             <View
                 android:layout_width="5.6dp"
                 android:layout_height="225dp"
                 android:background="#38b5f2" />
-
 
 
             <LinearLayout
@@ -63,10 +69,21 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="225dp"
                     android:layout_marginLeft="13dp"
                     android:layout_marginRight="19dp"
                     android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.3dp"
+                        android:fontFamily="@font/bungee"
+                        android:gravity="center_horizontal"
+                        android:text="Hello!!"
+                        android:textColor="#333232"
+                        android:textSize="16.7sp" />
 
 
                     <TextView
@@ -76,8 +93,7 @@
                         android:fontFamily="@font/poppins"
                         android:text="@string/mail_lab"
                         android:textColor="#9e9d9d"
-                        android:textSize="12.3sp"
-                        android:textStyle="bold" />
+                        android:textSize="12.3sp" />
 
 
                     <EditText
@@ -108,8 +124,7 @@
                         android:fontFamily="@font/poppins"
                         android:text="@string/pwd_lab"
                         android:textColor="#9e9d9d"
-                        android:textSize="12.3sp"
-                        android:textStyle="bold" />
+                        android:textSize="12.3sp" />
 
 
                     <RelativeLayout
@@ -148,42 +163,45 @@
 
         </LinearLayout>
 
-
-        <TextView
-            android:id="@+id/login_btn"
-            android:layout_width="match_parent"
-            android:layout_height="42dp"
+        <LinearLayout
+            android:id="@+id/reg_btn"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
             android:layout_gravity="center"
-            android:background="@color/design_default_color_primary"
-            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="40.3dp"
+            android:layout_marginBottom="16.7dp"
+            android:background="@drawable/half_blue_roundshape"
             android:gravity="center"
-            android:text="Login"
-            android:textColor="@color/design_default_color_on_primary"
-            android:textSize="15sp" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
 
     </LinearLayout>
-
-    <TextView
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_margin="5dp"
-        android:background="#00000000"
-        android:elevation="0dp"
-        android:text="Forgot Password"
-        android:textColor="#0E0C0C"
-        android:textStyle="bold" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="96dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="63dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
             android:gravity="center"
             android:orientation="horizontal">
@@ -191,11 +209,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins"
                 android:gravity="center_horizontal"
                 android:text="New User?"
                 android:textColor="#333232"
-                android:textSize="13.3sp" />
+                android:textSize="13.3sp"
+                android:fontFamily="@font/poppins"/>
 
             <TextView
                 android:id="@+id/signup_in_login"
@@ -210,23 +228,7 @@
 
         </LinearLayout>
 
-        <!--<LinearLayout
-            android:id="@+id/reg_btn"
-            android:layout_width="90dp"
-            android:layout_height="41dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_gravity="right"
-            android:layout_marginTop="40.3dp"
-            android:layout_marginBottom="16.7dp"
-            android:background="@drawable/half_blue_roundshape"
-            android:gravity="center"
-            android:orientation="vertical">
-
-
-    </LinearLayout>-->
-
 
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>

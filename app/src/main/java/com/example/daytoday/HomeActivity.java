@@ -234,7 +234,7 @@ public class HomeActivity extends AppCompatActivity {
                 DecimalFormat decimalFormat = new DecimalFormat("#.00");
                 String TotIncome = decimalFormat.format(totIncome);
 
-                DecimalFormat decimalFormat1 = new DecimalFormat("#.0");
+                DecimalFormat decimalFormat1 = new DecimalFormat("#.00");
                 String incPre = decimalFormat1.format(income_prasant);
                 String S1 = String.valueOf(incPre);
 

@@ -55,7 +55,7 @@
                 android:background="#30ba92"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Edit"
+                android:text="Update /Delete"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/cardview_dark_background" />
 
@@ -104,7 +104,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:hint="your name" />
+                        android:hint="Enter debt type" />
 
 
                 </RelativeLayout>
