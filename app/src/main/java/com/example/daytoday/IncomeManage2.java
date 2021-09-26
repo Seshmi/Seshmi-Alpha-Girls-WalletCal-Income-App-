@@ -81,7 +81,7 @@ public class IncomeManage2 extends AppCompatActivity {
         reff= FirebaseDatabase.getInstance().getReference("DataIncome").child(uid);
         reff.keepSynced(true);
 
-        //Total expense counter
+        //Total Income counter
 
         reff.addValueEventListener(new ValueEventListener() {
             @RequiresApi(api = Build.VERSION_CODES.N)
