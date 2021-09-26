@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.icu.text.DecimalFormat;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -219,6 +220,20 @@ public class IncomeManage2 extends AppCompatActivity {
                 String exAmount = amount_ed.getText().toString().trim();
                 String exType = type_ed.getText().toString().trim();
                 String exNote = note_ed.getText().toString().trim();
+
+                //Input Validation
+                if(TextUtils.isEmpty(exAmount)){
+                    amount_ed.setError("Add amount");
+                    return;
+                }
+                if(TextUtils.isEmpty(exType)){
+                    type_ed.setError("Add Type");
+                    return;
+                }
+                if(TextUtils.isEmpty(exNote)){
+                    note_ed.setError("Add note");
+                    return;
+                }
 
                 float amountEx = Float.parseFloat(exAmount);
 
