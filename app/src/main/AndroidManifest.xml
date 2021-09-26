@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/photo"
+        android:icon="@mipmap/photo3"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/icon1"
+        android:roundIcon="@mipmap/photo3"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".HomeActivity">
