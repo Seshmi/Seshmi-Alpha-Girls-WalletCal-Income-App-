@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -108,6 +109,29 @@ public class IncomeManage2 extends AppCompatActivity {
             }
         });
 
+        //SIGNOUT BUTTON
+
+        ImageView menu_btn = findViewById(R.id.menu_btn);
+
+        menu_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mAuth.signOut();
+                startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+            }
+        });
+
+        //back button
+
+        /*ImageView back_btn = findViewById(R.id.back_btn);
+
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+            }
+        });*/
+
         //floting button
         fabButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,6 +140,7 @@ public class IncomeManage2 extends AppCompatActivity {
             }
         });
 
+
         options = new FirebaseRecyclerOptions.Builder<DataIncome>()
                 .setQuery(FirebaseDatabase.getInstance().getReference("DataIncome")
                         .child(uid), DataIncome.class).build();
@@ -123,7 +148,7 @@ public class IncomeManage2 extends AppCompatActivity {
         adapter = new FirebaseRecyclerAdapter<DataIncome, dataRetrive>(options) {
             @Override
             protected void onBindViewHolder(@NonNull dataRetrive dataRetrive, @SuppressLint("RecyclerView") final int i, @NonNull DataIncome data) {
-                dataRetrive.amountR.setText("Amount - " + " " + data.getAmount());
+                dataRetrive.amountR.setText("Amount - Rs." + " " + data.getAmount());
                 dataRetrive.typeR.setText("Type - " + data.getType());
                 dataRetrive.noteR.setText("Note - " + data.getNote());
 
@@ -284,6 +309,20 @@ public class IncomeManage2 extends AppCompatActivity {
                 String amountUp = editAmount.getText().toString().trim();
                 String typeUp = editType.getText().toString().trim();
                 String noteUp = editNote.getText().toString().trim();
+
+                //Update Validation
+                if(TextUtils.isEmpty(amountUp)){
+                    editAmount.setError("Enter amount");
+                    return;
+                }
+                if(TextUtils.isEmpty(typeUp)){
+                    editType.setError("Enter type!");
+                    return;
+                }
+                if(TextUtils.isEmpty(noteUp)){
+                    editNote.setError("Enter Note!");
+                    return;
+                }
 
                 float floatAmount = Float.parseFloat(amountUp);
 
